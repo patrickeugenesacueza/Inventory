@@ -2,16 +2,15 @@ import React from "react";
 import NavLogin from "../Components/NavLogin";
 import Nav from "../Components/Nav";
 import Footer from "../Components/Footer";
-export default function Login(){
-    return(
-        <>
-            <div className="px-[.5em] md:px-[1em] pb-[.5em]  md:pb-[1.5em] ">
-                <NavLogin/>
-                <div className="h-[100vh] w-full">
-                    <span className="text-center">Log in to Y-Inventory</span>
-                </div>
-                <Footer/>
-            </div>
-        </>
-    )
+
+export default function Login() {
+  return (
+    <>
+      <div className="h-screen w-full flex justify-center items-center">
+        <div>
+          <span className="text-center text-2xl">Log in to Y-Inventory</span>
+        </div>
+      </div>
+    </>
+  );
 }
