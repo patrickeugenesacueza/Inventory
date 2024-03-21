@@ -1,5 +1,8 @@
 import { useState } from "react";
 import Nav from "./Components/Nav";
+import Login from "./Pages/Login";
+import FooterLogin from "./Components/Footer";
+import NavLogin from "./Components/NavLogin";
 import "./App.css";
 
 function App() {
@@ -8,7 +11,9 @@ function App() {
   return (
     <>
       <div>
-        <Nav />
+        <NavLogin/>
+        <Login/>
+        <FooterLogin/>
       </div>
     </>
   );
